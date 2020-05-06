@@ -6,7 +6,7 @@ An example project using Cypress, Cucumber, typescript and webpack to build
 
 pull the solution, open the folder and install the npm packages
 ```
-git pull https://github.com/waynethompson/Cypress-Cucumber-Typescript-Example.git
+git clone https://github.com/waynethompson/Cypress-Cucumber-Typescript-Example.git
 cd Cypress-Cucumber-Typescript-Example
 npm i
 ```
