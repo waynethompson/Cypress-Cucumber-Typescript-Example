@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
-    "test:all": "cypress run --spec \"**/*.features\""
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "docs": "Pickles --output-directory=./documentation --feature-directory=./cypress/integration"
   },
   "author": "",
   "license": "ISC",
