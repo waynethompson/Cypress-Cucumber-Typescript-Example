@@ -1,4 +1,4 @@
-import { Given, Then, When } from 'cypress-cucumber-preprocessor/steps';
+import { Given, Then, When } from '@badeball/cypress-cucumber-preprocessor';
 import { GoogleSearchPage } from '../../common/google-search-page';
 import {GoogleResultsPage} from '../../common/google-results-page';
 

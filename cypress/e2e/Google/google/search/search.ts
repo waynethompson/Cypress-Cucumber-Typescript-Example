@@ -1,4 +1,4 @@
-import { When, Then } from 'cypress-cucumber-preprocessor/steps';
+import { When, Then } from '@badeball/cypress-cucumber-preprocessor';
 import { GoogleSearchPage } from '../../common/google-search-page';
 import GoogleResultsPage from '../../common/google-results-page';
 

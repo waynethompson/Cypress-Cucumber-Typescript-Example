@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import { Given, When } from "cypress-cucumber-preprocessor/steps";
+import { Given, When } from "@badeball/cypress-cucumber-preprocessor";
 import { GoogleSearchPage } from "./google-search-page";
 
 Given(/^I'm at Google$/, () => {

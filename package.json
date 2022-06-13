@@ -6,23 +6,16 @@
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
     "test:all": "cypress run --spec \"**/*.features\"",
-    "docs": "Pickles --output-directory=./documentation --feature-directory=./cypress/integration"
+    "docs": "Pickles --output-directory=./documentation --feature-directory=./cypress/integration",
+    "open": "cypress open"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@cypress/webpack-preprocessor": "^5.1.2",
-    "@types/cypress-cucumber-preprocessor": "^1.14.1",
-    "cypress": "^4.5.0",
-    "cypress-cucumber-preprocessor": "^2.3.1",
-    "ts-loader": "^7.0.2",
-    "typescript": "^3.8.3",
-    "webpack": "^4.43.0"
-  },
-  "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
-  },
   "dependencies": {
-    "@types/node": "^13.13.5"
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "cypress": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest"
   }
 }

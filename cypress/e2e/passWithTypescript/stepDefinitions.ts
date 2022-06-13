@@ -1,4 +1,4 @@
-import { Given } from "cypress-cucumber-preprocessor/steps";
+import { Given } from "@badeball/cypress-cucumber-preprocessor";
 import { pass } from "./someFile";
 
 const localFunctionWithTypes = (a: number, b: number): number => a + b;
