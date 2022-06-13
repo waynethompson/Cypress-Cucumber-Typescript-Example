@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
     "test:all": "cypress run --spec \"**/*.features\"",
-    "docs": "Pickles --output-directory=./documentation --feature-directory=./cypress/integration",
+    "docs": "Pickles --output-directory=./documentation --feature-directory=./cypress/e2e",
     "open": "cypress open"
   },
   "author": "",
