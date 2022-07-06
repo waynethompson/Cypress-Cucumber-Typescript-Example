@@ -2,6 +2,7 @@
 import * as webpack from "@cypress/webpack-preprocessor";
 import { addCucumberPreprocessorPlugin } from "@badeball/cypress-cucumber-preprocessor";
 
+/// Currently this file does not get used in the latest version of cypress
 export default async (
   on: Cypress.PluginEvents,
   config: Cypress.PluginConfigOptions
